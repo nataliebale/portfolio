@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-project';
+  toggleBarIsActive: boolean = false;
+
+  onToggleBarChange(event: boolean){
+    this.toggleBarIsActive = event;
+  }
 }

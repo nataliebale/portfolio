@@ -3,6 +3,7 @@
     <div class="menu-left_logo">
       @nataliebale
     </div>
+
     <nav class="menu-nav">
       <ul>
         <li *ngFor="let item of menuItems" class="menu-nav_item">
@@ -14,9 +15,18 @@
       </ul>
     </nav>
   </div>
+
   <div class="menu-right">
     <a [routerLink]="'home'" class="menu-right_logo">
       N
     </a>
+    <div class="toggle-bar"
+         [class.active]="toggleBarIsActive"
+         (click)="onToggleBarChange()">
+      <div>
+        <div class="toggle-bar_line"></div>
+        <div class="toggle-bar_line"></div>
+      </div>
+    </div>
   </div>
 </header>

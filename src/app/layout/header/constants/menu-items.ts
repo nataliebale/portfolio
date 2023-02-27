@@ -2,23 +2,23 @@ import { MenuItem } from "../entity/header.interface";
 
 export const MENU_ITEMS: MenuItem[] = [
   {
-    title: 'Home',
+    title: '01. Home',
     url: '/home'
   },
   {
-    title: 'About',
+    title: '02. About',
     url: '/about'
   },
   {
-    title: 'Skills',
+    title: '03. Skills',
     url: '/skills'
   },
   {
-    title: 'Projects',
+    title: '04. Projects',
     url: '/projects'
   },
   {
-    title: 'Contact',
+    title: '05. Contact',
     url: '/contact'
   }
 ]

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { MenuItem } from "./entity/header.interface";
 import { MENU_ITEMS } from "./constants/menu-items";
 
@@ -8,8 +8,16 @@ import { MENU_ITEMS } from "./constants/menu-items";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  @Output() toggleChangeEmit: EventEmitter<boolean> = new EventEmitter<boolean>();
+
   public menuItems: Array<MenuItem> = MENU_ITEMS;
+  public toggleBarIsActive: boolean = false;
 
   constructor() { }
+
+  onToggleBarChange(){
+    this.toggleBarIsActive = !this.toggleBarIsActive;
+    this.toggleChangeEmit.emit(this.toggleBarIsActive);
+  }
 
 }
