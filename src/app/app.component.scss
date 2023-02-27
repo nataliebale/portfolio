@@ -11,7 +11,7 @@
     z-index: 1;
     position: relative;
     left: -320px;
-    transition: 0.3s;
+    transition: left 0.3s ease;
 
     &.open{
       left: 0;
@@ -20,10 +20,12 @@
 
   &-main{
     width: calc(100% - 100px);
-    transition: 0.3s;
+    margin-left: -320px;
+    position: relative;
+    transition: margin 0.3s ease;
 
     &.open{
-      margin-left: 320px;
+      margin-left: 0px;
     }
   }
 }

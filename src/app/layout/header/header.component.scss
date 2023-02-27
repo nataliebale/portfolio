@@ -129,3 +129,31 @@ header{
     }
    }
 }
+
+.socials{
+  position: absolute;
+  width: 100px;
+  bottom: 100px;
+
+  a{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  i{
+    color: #848484;
+    margin: 8px;
+    text-shadow: 2px 2px #120028;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 90px;
+    left: 49px;
+    bottom: -100px;
+    background: variables.$color-github-purple;
+  }
+}

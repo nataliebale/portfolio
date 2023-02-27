@@ -6,19 +6,19 @@ export const MENU_ITEMS: MenuItem[] = [
     url: '/home'
   },
   {
-    title: '02. About',
-    url: '/about'
-  },
-  {
-    title: '03. Skills',
+    title: '02. Skills',
     url: '/skills'
   },
   {
-    title: '04. Projects',
+    title: '03. Projects',
     url: '/projects'
   },
   {
-    title: '05. Contact',
+    title: '04. Contact',
     url: '/contact'
+  },
+  {
+    title: '05. Check my games',
+    url: '/games'
   }
 ]
