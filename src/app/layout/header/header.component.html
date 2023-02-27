@@ -5,33 +5,9 @@
     </div>
     <nav class="menu-nav">
       <ul>
-        <li class="menu-nav_item">
-          <a class="menu-nav_item--link">
-            Home
-          </a>
-        </li>
-
-        <li class="menu-nav_item">
-          <a class="menu-nav_item--link">
-            About
-          </a>
-        </li>
-
-        <li class="menu-nav_item">
-          <a class="menu-nav_item--link">
-            Skills
-          </a>
-        </li>
-
-        <li class="menu-nav_item">
-          <a class="menu-nav_item--link">
-            My work
-          </a>
-        </li>
-
-        <li class="menu-nav_item">
-          <a class="menu-nav_item--link">
-            Contact
+        <li *ngFor="let item of menuItems" class="menu-nav_item">
+          <a [routerLink]="item.url" routerLinkActive="menu-nav_item--active" class="menu-nav_item--link">
+            {{ item.title }}
           </a>
         </li>
 

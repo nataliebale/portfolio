@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuItem } from "./entity/header.interface";
+import { MENU_ITEMS } from "./constants/menu-items";
 
 @Component({
   selector: 'app-header',
@@ -7,24 +8,7 @@ import { MenuItem } from "./entity/header.interface";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  menuItems: MenuItem[] = [
-    {
-      title: 'home',
-      url: '/home'
-    },
-    {
-      title: 'about us',
-      url: '/about'
-    },
-    {
-      title: 'blog entries',
-      url: '/blogs'
-    },
-    {
-      title: 'contact us',
-      url: '/contact'
-    }
-  ]
+  public menuItems: Array<MenuItem> = MENU_ITEMS;
 
   constructor() { }
 
