@@ -1,17 +1,20 @@
+@use 'src/assets/scss/abstracts/variables' as variables;
+
 .page-not-found{
   position: relative;
 }
 
 .error404 {
-  position: relative;
+  position: absolute;
   height: 100vh;
   overflow: hidden;
-  background: #333333;
-  width: 50%;
-  margin-left: 50%;
+  //background: #333333;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 0;
+  left: 0;
 
   &::before {
     content: '';
@@ -31,6 +34,20 @@
     position: absolute;
     top: 200px;
     left: 100px;
+    z-index: 11;
+  }
+
+  &-title{
+    font-weight: bold;
+    font-size: 60px;
+    color: variables.$color-github-purple;
+    text-shadow: 3px 3px #120028;
+  }
+
+  &-desc{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
   }
 }
 
