@@ -1,0 +1,30 @@
+@use "src/assets/scss/abstracts/variables" as variables;
+
+.form-control{
+  border-radius: 0;
+  height: 46px;
+  font-size: 13px;
+  color: variables.$color-text-gray;
+  outline: none;
+  font-weight: 500;
+  padding: 10px 14px;
+  border: 1px solid variables.$color-border-gray;
+
+  &::placeholder {
+    color: rgba(variables.$color-text-gray, 0.9);
+  }
+
+  &.error{
+    border: 1px solid variables.$color-red;
+    color: variables.$color-red;
+
+    &::placeholder{
+      color: variables.$color-red;
+    }
+  }
+}
+
+textarea.form-control {
+  min-height: 180px;
+  padding: 10px 14px;
+}
