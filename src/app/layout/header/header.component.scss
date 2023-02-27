@@ -1,3 +1,5 @@
+@use 'src/assets/scss/abstracts/variables' as variables;
+
 header{
   display: flex;
   width: 420px;
@@ -11,7 +13,14 @@ header{
     background: #333333;
 
     &_logo{
-      color: #9663d6;
+      background: #2D2D2D;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      color: #848484;
+      height: 98px;
+      border-right: 1px solid #333333;
+      padding-left: 40px;
     }
   }
 
@@ -19,7 +28,54 @@ header{
     width: 100px;
 
     &_logo{
-      color: #9663d6;
+      font-weight: 900;
+      text-align: center;
+      display: block;
+      color: variables.$color-github-purple;
+      font-size: 30px;
+      height: 99px;
+      border-bottom: 1px solid #333333;
+      line-height: 100px;
+    }
+  }
+
+  &-nav{
+    margin-top: 140px;
+  }
+
+  &-nav_item{
+    &--link{
+      padding: 15px 8px;
+      cursor: pointer;
+      display: block;
+      color: #848484;
+      font-weight: 600;
+      font-size: 18px;
+      transform: scale(1, 1);
+      transition: .3s ease-in-out;
+      position: relative;
+
+      &::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        background: #848484;
+        left: 10px;
+        top: 28px;
+        transition: .3s ease-in-out;
+      }
+
+      &:hover{
+        color: white;
+        transform: translateX(20px);
+        filter: blur(0px);
+
+        &::after{
+          width: 10px;
+          left: -10px;
+        }
+      }
     }
   }
 }

@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'golos-text';
+  src: url('../../fonts/GolosText-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'golos-text';
+  font-weight: 500;
+  src: url('../../fonts/GolosText-Medium.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'golos-text';
+  font-weight: bold;
+  src: url('../../fonts/GolosText-Bold.ttf')  format('truetype')
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'golos-text';
+  src: url('../../fonts/GolosText-ExtraBold.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'golos-text';
+  font-weight: 900;
+  src: url('../../fonts/GolosText-Black.ttf')  format('truetype')
+}
+
 *{
-  font-family: "Roboto";
+  font-family: "golos-text", sans-serif;
 }

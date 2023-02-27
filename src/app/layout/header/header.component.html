@@ -3,10 +3,44 @@
     <div class="menu-left_logo">
       @nataliebale
     </div>
+    <nav class="menu-nav">
+      <ul>
+        <li class="menu-nav_item">
+          <a class="menu-nav_item--link">
+            Home
+          </a>
+        </li>
+
+        <li class="menu-nav_item">
+          <a class="menu-nav_item--link">
+            About
+          </a>
+        </li>
+
+        <li class="menu-nav_item">
+          <a class="menu-nav_item--link">
+            Skills
+          </a>
+        </li>
+
+        <li class="menu-nav_item">
+          <a class="menu-nav_item--link">
+            Projects
+          </a>
+        </li>
+
+        <li class="menu-nav_item">
+          <a class="menu-nav_item--link">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+    </nav>
   </div>
   <div class="menu-right">
-    <div class="menu-right_logo">
+    <a [routerLink]="'home'" class="menu-right_logo">
       N
-    </div>
+    </a>
   </div>
 </header>
