@@ -17,8 +17,8 @@ export const MENU_ITEMS: MenuItem[] = [
     title: '04. Contact',
     url: '/contact'
   },
-  {
-    title: '05. Check my games',
-    url: '/games'
-  }
+  // {
+  //   title: '05. Check my games',
+  //   url: '/games'
+  // }
 ]
