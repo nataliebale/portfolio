@@ -1,10 +1,7 @@
 @import '/node_modules/bootstrap/scss/bootstrap';
 
 // vendors-overrides
-@import "vendors-overrides/bootstrap-container-override";
 @import "vendors-overrides/bootstrap-buttons-override";
-@import "vendors-overrides/bootstrap-forms-override";
-@import "vendors-overrides/bootstrap-cards-override";
 
 // base
 @import 'base/reset';
@@ -25,4 +22,9 @@
   font-size: 13px;
   font-weight: 400;
   color: $color-github-purple;
+}
+
+.section{
+  padding: 100px 100px 0;
+  max-width: 900px;
 }
