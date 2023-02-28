@@ -1,0 +1,46 @@
+@import '/node_modules/bootstrap/scss/bootstrap';
+
+// vendors-overrides
+@import "vendors-overrides/bootstrap-buttons-override";
+
+// base
+@import 'base/reset';
+@import 'base/fonts';
+
+// abstracts
+@import 'abstracts/variables';
+
+// components
+@import "components/buttons";
+
+
+.section-title{
+  font-weight: bold;
+}
+
+.section-secondary-title{
+  font-size: 13px;
+  font-weight: 400;
+  color: $color-github-purple;
+}
+
+.section{
+  padding: 100px 100px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skill{
+  padding: 10px 20px;
+  font-size: 14px;
+  background: #d5d5d5;
+  display: inline-block;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px
+}
+
+.text-right{
+  text-align: right;
+}

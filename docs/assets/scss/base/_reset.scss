@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as variables;
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+  color: variables.$color-text-dark-gray;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: gray;
+}
