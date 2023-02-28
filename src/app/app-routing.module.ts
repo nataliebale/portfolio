@@ -13,6 +13,11 @@ const routes: Routes = [
       import('./features/skills/skills.module').then((m) => m.SkillsModule)
   },
   {
+    path: 'projects',
+    loadChildren: () =>
+      import('./features/projects/projects.module').then((m) => m.ProjectsModule)
+  },
+  {
     path: 'page-not-found',
     loadChildren: () =>
       import('./features/page-not-found/page-not-found.module').then((m) => m.PageNotFoundModule)

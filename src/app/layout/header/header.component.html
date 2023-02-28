@@ -7,13 +7,20 @@
     <nav class="menu-nav">
       <ul>
         <li *ngFor="let item of menuItems" class="menu-nav_item">
-          <a [routerLink]="item.url" routerLinkActive="menu-nav_item--active" class="menu-nav_item--link">
+          <a [routerLink]="item.url"
+             routerLinkActive="menu-nav_item--active"
+             class="menu-nav_item--link"
+             (click)="onToggleBarChange()">
             {{ item.title }}
           </a>
         </li>
 
       </ul>
     </nav>
+    <a href="" class="btn primary-btn resume-btn">
+      <span>Resume</span>
+      <div></div>
+    </a>
   </div>
 
   <div class="menu-right">

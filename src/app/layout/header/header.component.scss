@@ -5,24 +5,24 @@ header{
   width: 100%;
   height: 100vh;
   transition: 0.3s;
-  background: #2D2D2D;
+  background: variables.$color-primary-gray;
 }
 
 .menu{
   &-left{
     width: 320px;
-    background: #333333;
+    background: variables.$color-secondary-gray;
 
     &_logo{
-      background: #2D2D2D;
+      background: variables.$color-primary-gray;;
       font-weight: 900;
       display: flex;
       align-items: center;
       font-size: 16px;
-      color: #848484;
+      color: variables.$color-text-gray;
       text-shadow: 2px 2px variables.$color-github-purple-shadow;
       height: 98px;
-      border-right: 1px solid #333333;
+      border-right: 1px solid variables.$color-secondary-gray;
       padding-left: 40px;
     }
   }
@@ -35,16 +35,15 @@ header{
       text-align: center;
       display: block;
       color: variables.$color-github-purple;
-      font-family: 'Montserrat', sans-serif;
       font-size: 46px;
       height: 99px;
-      border-bottom: 1px solid #333333;
+      border-bottom: 1px solid variables.$color-secondary-gray;
       line-height: 100px;
       transition: 0.2s ease-in-out;
       text-shadow: 5px 5px variables.$color-github-purple-shadow;
 
       &:hover{
-        background: #333333;
+        background: variables.$color-secondary-gray;
       }
     }
   }
@@ -58,7 +57,7 @@ header{
       padding: 15px 8px;
       cursor: pointer;
       display: inline-block;
-      color: #848484;
+      color: variables.$color-text-gray;
       text-shadow: 2px 2px variables.$color-github-purple-shadow;
       font-weight: 600;
       font-size: 16px;
@@ -86,11 +85,9 @@ header{
     &--link:hover,
     &--active{
       transform: translateX(10px);
-      filter: blur(0px);
 
       &::after{
-        left: 0px;
-
+        left: 0;
         transform-origin: 0 0;
         transform: scaleX(1);
       }
@@ -100,7 +97,7 @@ header{
 
 .toggle-bar{
   height: 99px;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid variables.$color-secondary-gray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +108,7 @@ header{
     margin: 5px auto;
     width: 31px;
     height: 3px;
-    background: #848484;
+    background: variables.$color-text-gray;
     border-radius: 5px;
     transition: 0.2s;
     box-shadow: 2px 2px variables.$color-github-purple-shadow;
@@ -123,7 +120,7 @@ header{
 
   &:hover,
   &.active{
-    background: #333333;
+    background: variables.$color-secondary-gray;
   }
 
   &.active{
@@ -155,9 +152,9 @@ header{
 
   i{
     transition: 0.2s;
-    color: #848484;
+    color: variables.$color-text-gray;
     margin: 8px;
-    text-shadow: 2px 2px #120028;
+    text-shadow: 2px 2px variables.$color-github-purple-shadow;
   }
 
   &::after{
@@ -170,3 +167,12 @@ header{
     background: variables.$color-github-purple;
   }
 }
+
+.resume-btn{
+  margin: 60px 40px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 230px;
+}
+

@@ -1,0 +1,22 @@
+@use 'src/assets/scss/abstracts/variables' as variables;
+
+.projects{
+  vertical-align: baseline;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 100px 100px 0;
+
+  &-item{
+    height: 100vh;
+
+    &:nth-child(3n-1){
+      background: rgba(variables.$color-github-purple-shadow, 0.2);
+    }
+    &:nth-child(3n){
+      background: rgba(variables.$color-github-purple, 0.2);
+    }
+    &:nth-child(3n-2){
+      background: rgba(variables.$color-primary-gray, 0.2);
+    }
+  }
+}
