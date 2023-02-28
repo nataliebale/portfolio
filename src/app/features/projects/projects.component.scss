@@ -7,16 +7,29 @@
   padding: 100px 100px 0;
 
   &-item{
-    height: 100vh;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    background: #d5d5d5;
+    position: relative;
 
-    &:nth-child(3n-1){
-      background: rgba(variables.$color-github-purple-shadow, 0.2);
+
+    &_title{
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
-    &:nth-child(3n){
-      background: rgba(variables.$color-github-purple, 0.2);
+
+    &_description{
+      margin-top: 10px;
+      font-size: 14px;
     }
-    &:nth-child(3n-2){
-      background: rgba(variables.$color-primary-gray, 0.2);
+
+    &_link{
+      position: absolute;
+      bottom: 20px;
     }
   }
 }

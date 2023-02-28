@@ -64,4 +64,27 @@
       top: 7px;
     }
   }
+
+
+  &.light-shadow{
+    box-shadow: 0 0 #9663d6;
+
+    &::before{
+      background: #7950ad;
+    }
+
+    &::after{
+      background: #503472;
+    }
+
+    &:hover{
+      box-shadow: 9px 9px #9663d6;
+    }
+  }
+
+  &.light{
+    span{
+      background: #d5d5d5;
+    }
+  }
 }

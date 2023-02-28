@@ -18,6 +18,11 @@ const routes: Routes = [
       import('./features/projects/projects.module').then((m) => m.ProjectsModule)
   },
   {
+    path: 'contact',
+    loadChildren: () =>
+      import('./features/contact/contact.module').then((m) => m.ContactModule)
+  },
+  {
     path: 'page-not-found',
     loadChildren: () =>
       import('./features/page-not-found/page-not-found.module').then((m) => m.PageNotFoundModule)
