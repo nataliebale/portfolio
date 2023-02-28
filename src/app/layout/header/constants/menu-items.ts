@@ -6,7 +6,7 @@ export const MENU_ITEMS: MenuItem[] = [
     url: '/home'
   },
   {
-    title: '02. Skills',
+    title: '02. Skills & Experience',
     url: '/skills'
   },
   {

@@ -35,6 +35,7 @@ header{
       text-align: center;
       display: block;
       color: variables.$color-github-purple;
+      font-family: 'Montserrat', sans-serif;
       font-size: 46px;
       height: 99px;
       border-bottom: 1px solid #333333;
@@ -112,7 +113,11 @@ header{
     height: 3px;
     background: #848484;
     transition: 0.2s;
-    box-shadow: 2px 2px variables.$color-github-purple-shadow;;
+    box-shadow: 2px 2px variables.$color-github-purple-shadow;
+
+    &:last-child{
+      width: 20px;
+    }
   }
 
   &:hover,
@@ -125,6 +130,7 @@ header{
       transform: rotate(30deg) translateY(4px);
     }
     .toggle-bar_line:last-child{
+      width: 31px;
       transform: rotate(-30deg) translateY(-5px);
     }
    }
