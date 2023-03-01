@@ -1,0 +1,114 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "assets/images/sam.png",
+      "skills": ["HTML", "CSS", "Sass", "Bootstrap", "Angular", "Git", "RxJS", "NgRx"],
+      "title": "SAM - Smart Asset Manager",
+      "date": "May 12, 2020",
+      "shortDescription": "SAM is a management and control solution software for construction companies.\nThe software includes:\n- Individual equipment profiles\n- Transparent planning and real usage\n- Equipment, personnel & crew management",
+      "description": "General Responsibilities:\n- Write high-quality code that adheres to company coding standards\n- Work effectively within a cross-functional team\n- Communicate updates to the team during daily stand-ups\n- Doing code reviews, sharing knowledge, and supporting the team\n- Work with QA to help identify, troubleshoot, and correct problems\n- Recommending and executing improvements\nDay-to-day Activities:\n- Daily standups: discuss progress and identify blockers.\n- Sprint planning (weekly): define what can be delivered in the sprint by collaborating with the whole team\n- Sprint grooming (weekly): review the backlog items and decides on the number of items to be developed during the next sprint\n- Sprint retrospective (weekly): discuss what went well and what can be improved in a sprint\n- Sprint delivery (weekly): review what features were built during a sprint\n- Coding, code reviews"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/crocobet.png",
+      "skills": ["HTML", "CSS", "Sass", "Bootstrap", "Angular", "Git", "RxJS", "NgRx"],
+      "title": "Crocobet.com",
+      "date": "May 12, 2020",
+      "shortDescription": "Worked in a team with other developers to redesign and refactor the main website of the gambling company (Crocobet). Worked as an Angular and Markup developer.\n\n",
+      "description": "Worked in a team with other developers to redesign and refactor the main website of the gambling company (Crocobet). Worked as an Angular and Markup developer.\nGeneral Responsibilities:\n- Write high-quality code that adheres to company coding standards\n- Work effectively within a cross-functional team\n- Communicate updates to the team during daily stand-ups\n- Work with QA to help identify, troubleshoot, and correct problems\nDay-to-day Activities:\n- Daily standups: discuss progress and identify blockers.\n- Sprint planning (weekly): define what can be delivered in the sprint by collaborating with the whole team\n- Sprint grooming (weekly): review the backlog items and decides on the number of items to be developed during the next sprint\n- Sprint retrospective (weekly): discuss what went well and what can be improved in a sprint\n- Sprint delivery (weekly): review what features were built during a sprint\n- Coding, code reviews\nKey Achievements:\n- Created a project from the beginning\n- Created a completely new architecture using front-end development best practices\n- Collaborated with UI/UX designers to determine functionality and usability requirements"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/optimo.png",
+      "skills": ["HTML", "CSS", "Sass", "Bootstrap", "Angular", "Git", "RxJS", "NgRx", "Angular Material"],
+      "title": "Optimo",
+      "date": "May 12, 2020",
+      "shortDescription": "Participated in creating stock management software (Optimo) for businesses to manage and control stocks, adjust waybills, and track statistics. Worked as an Angular and markup developer.",
+      "description": "Participated in creating stock management software (Optimo) for businesses to manage and control stocks, adjust waybills, and track statistics. Worked as an Angular and markup developer.\nGeneral Responsibilities:\n- Writing clean and high-quality code\n- Work effectively within a cross-functional team\n- Communicate updates to the team during daily stand-ups\n- Work with QA to help identify, troubleshoot, and correct problems\nDay-to-day Activities:\n- Daily standups: discuss progress and identify blockers.\n- Sprint planning (weekly): define what can be delivered in the sprint by collaborating with the whole team\n- Sprint grooming (weekly): review the backlog items and decides on the number of items to be developed during the next sprint\n- Sprint retrospective (weekly): discuss what went well and what can be improved in a sprint\n- Sprint delivery (weekly): review what features were built during a sprint\n- Coding"
+    },
+    {
+      "id": 4,
+      "image": "assets/images/hualing-insurance.png",
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Hualing Insurance",
+      "date": "May 12, 2020",
+      "shortDescription": "Created a front-end application for Hualing Insurance. Worked as a Markup/Javascript developer.",
+      "description": "Created a front-end application for Hualing Insurance. Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 5,
+      "image": "assets/images/tsu.png",
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Tbilisi State University (tsu.ge)",
+      "date": "May 12, 2020",
+      "shortDescription": "Created a front-end application for Hualing Insurance. Worked as a Markup/Javascript developer.",
+      "description": "Created a front-end application for Hualing Insurance. Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 5,
+      "image": "assets/images/elita-burji.png",
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Elitaburji",
+      "date": "May 12, 2020",
+      "shortDescription": "Created a front-end application for the construction company. Worked as a Markup/Javascript developer.",
+      "description": "Created a front-end application for the construction company. Worked as a Markup/Javascript developer."
+    }
+  ],
+  "project-archives": [
+    {
+      "id": 1,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Turebi.ge",
+      "description": "Created a front-end application for the tourist portal. Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 2,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "KMG",
+      "description": "Created a front-end application for the law firm. Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 3,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Office1",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 4,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "myadvokat.ge",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 5,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Oktravel.ge",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 6,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "tbilisi-lighting.ge",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 7,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Panorama Tbilisi",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 8,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Mocvi.ge",
+      "description": "Worked as a Markup/Javascript developer."
+    },
+    {
+      "id": 9,
+      "skills": ["HTML", "CSS", "Stylus", "MaterializeCSS", "Git", "JavaScript", "JQuery"],
+      "title": "Myclient.ge",
+      "description": "Worked as a Markup/Javascript developer."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as variables;
+
+*{
+  color: variables.$color-text-dark-gray;
+}
+
+p{
+  color: gray;
+}
+
+body{
+  background: #dddddd;
+}
