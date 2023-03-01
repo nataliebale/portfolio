@@ -9,8 +9,6 @@ import { MENU_ITEMS } from "./constants/menu-items";
 })
 export class HeaderComponent {
   @Output() toggleChangeEmit: EventEmitter<boolean> = new EventEmitter<boolean>();
-
-  public menuItems: Array<MenuItem> = MENU_ITEMS;
   public toggleBarIsActive: boolean = false;
 
   constructor() { }

@@ -12,19 +12,6 @@ header{
   &-left{
     width: 320px;
     background: variables.$color-secondary-gray;
-
-    &_logo{
-      background: variables.$color-primary-gray;;
-      font-weight: 900;
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-      color: variables.$color-text-gray;
-      text-shadow: 2px 2px variables.$color-github-purple-shadow;
-      height: 98px;
-      border-right: 1px solid variables.$color-secondary-gray;
-      padding-left: 40px;
-    }
   }
 
   &-right{
@@ -44,52 +31,6 @@ header{
 
       &:hover{
         background: variables.$color-secondary-gray;
-      }
-    }
-  }
-
-  &-nav{
-    margin-top: 100px;
-  }
-
-  &-nav_item{
-    &--link{
-      padding: 15px 8px;
-      cursor: pointer;
-      display: inline-block;
-      color: variables.$color-text-gray;
-      text-shadow: 2px 2px variables.$color-github-purple-shadow;
-      font-weight: 600;
-      font-size: 16px;
-      transform: scale(1, 1);
-      transition: .3s ease-in-out;
-      position: relative;
-
-      &::after{
-        content: "";
-        position: absolute;
-        left: 10px;
-        right: 0;
-        bottom: 25px;
-        height: 1px;
-        background: variables.$color-github-purple;
-        will-change: transform;
-        transform-origin: 100% 100%;
-        transform: scaleX(0);
-        transition-property: transform;
-        transition-timing-function: cubic-bezier(.215,.61,.355,1);
-        transition-duration: .7s;
-      }
-    }
-
-    &--link:hover,
-    &--active{
-      transform: translateX(10px);
-
-      &::after{
-        left: 0;
-        transform-origin: 0 0;
-        transform: scaleX(1);
       }
     }
   }
@@ -166,21 +107,5 @@ header{
     bottom: -100px;
     background: variables.$color-github-purple;
   }
-}
-
-.resume-btn{
-  display: block;
-  width: 230px;
-}
-
-.menu-left_footer{
-  position: absolute;
-  margin: 60px 40px;
-  bottom: 0;
-
-}
-
-.copyright{
-  margin-top: 20px;
 }
 

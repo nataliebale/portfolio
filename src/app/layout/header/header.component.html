@@ -1,32 +1,6 @@
 <header>
   <div class="menu-left">
-    <div class="menu-left_logo">
-      @nataliebale
-    </div>
-
-    <nav class="menu-nav">
-      <ul>
-        <li *ngFor="let item of menuItems" class="menu-nav_item">
-          <a [routerLink]="item.url"
-             routerLinkActive="menu-nav_item--active"
-             class="menu-nav_item--link"
-             (click)="onToggleBarChange()">
-            {{ item.title }}
-          </a>
-        </li>
-
-      </ul>
-    </nav>
-
-    <div class="menu-left_footer">
-      <a href="" class="btn primary-btn resume-btn">
-        <span>Resume</span>
-        <div></div>
-      </a>
-      <div class="copyright section-secondary-title text-center">
-        Designed & built by me.
-      </div>
-    </div>
+    <app-menu (toggleChangeEmit)="onToggleBarChange()"></app-menu>
   </div>
 
   <div class="menu-right">

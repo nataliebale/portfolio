@@ -1,0 +1,27 @@
+<div class="menu_logo">
+  @nataliebale
+</div>
+
+<nav class="menu-nav">
+  <ul>
+    <li *ngFor="let item of menuItems" class="menu-nav_item">
+      <a [routerLink]="item.url"
+         routerLinkActive="menu-nav_item--active"
+         class="menu-nav_item--link"
+         (click)="toggleChangeEmit.emit()">
+        {{ item.title }}
+      </a>
+    </li>
+
+  </ul>
+</nav>
+
+<div class="menu_footer">
+  <a href="" class="btn primary-btn resume-btn">
+    <span>Resume</span>
+    <div></div>
+  </a>
+  <div class="copyright section-secondary-title text-center">
+    Designed & built by me.
+  </div>
+</div>
