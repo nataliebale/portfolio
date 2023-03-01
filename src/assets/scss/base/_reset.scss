@@ -5,6 +5,22 @@
   padding: 0;
   list-style-type: none;
   outline: none;
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #dddddd;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: variables.$color-github-purple;
+    border-radius: 20px;
+    border: 2px solid #dddddd;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 a{
