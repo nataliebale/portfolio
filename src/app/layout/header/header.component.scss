@@ -47,6 +47,7 @@ header{
 
       @media #{variables.$media-mobile-sm} {
         width: 100px;
+        border-bottom: none;
         background: transparent;
       }
 
