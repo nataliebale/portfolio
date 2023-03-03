@@ -12,10 +12,26 @@ header{
   &-left{
     width: 320px;
     background: variables.$color-secondary-gray;
+
+    @media #{variables.$media-mobile-sm} {
+      width: 100%;
+    }
   }
 
   &-right{
     width: 100px;
+
+    @media #{variables.$media-mobile-sm} {
+      position: fixed;
+      z-index: 111;
+      top: 0;
+      width: 100%;
+      left: 0;
+      background: rgba(variables.$color-primary-gray, 0.8);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: space-between;
+    }
 
     &_logo{
       font-weight: 900;
@@ -28,6 +44,11 @@ header{
       line-height: 100px;
       transition: 0.2s ease-in-out;
       text-shadow: 5px 5px variables.$color-github-purple-shadow;
+
+      @media #{variables.$media-mobile-sm} {
+        width: 100px;
+        background: transparent;
+      }
 
       &:hover{
         background: variables.$color-secondary-gray;
@@ -44,6 +65,10 @@ header{
   justify-content: center;
   transition: 0.2s;
   cursor: pointer;
+
+  @media #{variables.$media-mobile-sm} {
+    width: 100px;
+  }
 
   &_line{
     margin: 5px auto;
@@ -80,10 +105,20 @@ header{
   width: 100px;
   bottom: 100px;
 
+  @media #{variables.$media-mobile-sm} {
+    display: none;
+  }
+
+
   a{
     display: block;
     font-size: 16px;
     text-align: center;
+
+    @media #{variables.$media-mobile-sm} {
+      display: inline-block;
+    }
+
     &:hover {
       i{
         color: variables.$color-github-purple;

@@ -51,7 +51,9 @@
 
   &_image{
     img{
+      box-shadow: 0 0 10px rgba(variables.$color-black, 0.2);
       width: 100%;
+      margin: 20px 0 20px;
     }
   }
 }

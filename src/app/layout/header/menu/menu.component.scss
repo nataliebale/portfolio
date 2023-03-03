@@ -15,11 +15,29 @@
     height: 98px;
     border-right: 1px solid variables.$color-secondary-gray;
     padding-left: 40px;
+
+    @media #{variables.$media-mobile-sm} {
+      margin-top: 100px;
+      background: transparent;
+      padding-left: 32px;
+    }
   }
 
   &-nav{
     margin-top: 100px;
+
+    @media #{variables.$media-mobile-sm} {
+      margin-top: 0;
+    }
+
+    ul{
+      @media #{variables.$media-mobile-sm} {
+        padding-left: 25px;
+      }
+
+    }
   }
+
 
   &-nav_item{
     &--link{
@@ -67,6 +85,10 @@
 .resume-btn{
   display: block;
   width: 230px;
+
+  @media #{variables.$media-mobile-sm} {
+    width: calc(100% - 65px);
+  }
 }
 
 .menu_footer{
@@ -74,8 +96,43 @@
   margin: 60px 40px;
   bottom: 0;
 
+  @media #{variables.$media-mobile-sm} {
+    width: 100%;
+    margin: 60px 32px;
+  }
 }
 
 .copyright{
   margin-top: 20px;
+
+  @media #{variables.$media-mobile-sm} {
+    width: calc(100% - 65px);
+  }
 }
+
+.socials{
+  display: none;
+  width: calc(100% - 65px);
+  text-align: center;
+
+  @media #{variables.$media-mobile-sm} {
+    display: block;
+  }
+
+  a{
+    font-size: 16px;
+    padding: 20px 8px;
+    display: inline-block;
+    color: #848484;
+    text-shadow: 2px 2px #120028;
+
+    @media #{variables.$media-mobile-sm} {
+      display: inline-block;
+    }
+
+    &:hover {
+      color: variables.$color-github-purple;
+    }
+  }
+}
+

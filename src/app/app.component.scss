@@ -1,3 +1,5 @@
+@use 'src/assets/scss/abstracts/variables' as variables;
+
 .app{
   &-body {
     width: 100%;
@@ -12,6 +14,11 @@
     position: relative;
     left: -320px;
     transition: left 0.3s ease;
+
+    @media #{variables.$media-mobile-sm} {
+      width: 100%;
+      left: -100%;
+    }
 
     &.open{
       left: 0;
@@ -28,9 +35,18 @@
     position: relative;
     transition: margin 0.4s ease-in-out;
 
+    @media #{variables.$media-mobile-sm} {
+      width: 100%;
+      margin-left: -100%;
+    }
+
     &.open{
       margin-left: 0px;
       margin-right: -320px;
+
+      @media #{variables.$media-mobile-sm} {
+        margin-right: -100%;
+      }
     }
   }
 }

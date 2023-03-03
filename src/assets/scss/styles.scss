@@ -29,6 +29,11 @@
   padding: 100px 100px 0;
   max-width: 1200px;
   margin: 0 auto;
+
+  @media #{$media-mobile-sm} {
+    width: 100%;
+    padding: 100px 20px 0;
+  }
 }
 
 .skill{

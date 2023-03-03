@@ -6,3 +6,9 @@ $color-text-gray: #848484;
 $color-text-dark-gray: #545454;
 $color-github-purple: #9663d6;
 $color-github-purple-shadow: #120028;
+
+// Media queries
+$media-desktop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width : 600px)";
+$media-mobile-sm: "only screen and (max-width : 480px)";
