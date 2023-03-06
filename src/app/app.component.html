@@ -1,6 +1,8 @@
-<section class="app-body">
+<section #scroller class="app-body">
   <div class="app-header" [class.open]="toggleBarIsActive">
-    <app-header (toggleChangeEmit)="onToggleBarChange($event)"></app-header>
+    <app-header
+      [showHeader]="showHeader"
+      (toggleChangeEmit)="onToggleBarChange($event)"></app-header>
   </div>
   <div class="app-main" [class.open]="toggleBarIsActive">
     <router-outlet></router-outlet>

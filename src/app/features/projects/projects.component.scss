@@ -15,6 +15,10 @@
     background: #d5d5d5;
     position: relative;
 
+    @media #{variables.$media-mobile-sm} {
+      height: auto;
+    }
+
     &_title{
       font-size: 24px;
       font-weight: bold;
@@ -29,6 +33,12 @@
     &_link{
       position: absolute;
       bottom: 20px;
+
+      @media #{variables.$media-mobile-sm} {
+        position: relative;
+        margin: 30px 0 0;
+        bottom: auto;
+      }
     }
   }
 }

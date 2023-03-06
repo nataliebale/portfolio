@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,8 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  @ViewChild('scroller') scroller: ElementRef;
+
   title = 'portfolio-project';
   toggleBarIsActive: boolean = false;
+  showHeader = true;
+
+  ngOnInit() {
+    this.scroller.nativeElement.onscroll = () => {
+      let top = this.scroller.nativeElement.scrollTop;
+      console.log(111111111111, top);
+      if (top > 0) {  // We scrolled down
+        this.showHeader = false;
+      }
+      else {
+        this.showHeader = true;
+      }
+    }
+  }
 
   onToggleBarChange(event: boolean){
     this.toggleBarIsActive = event;

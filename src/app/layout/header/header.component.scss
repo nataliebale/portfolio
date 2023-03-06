@@ -24,13 +24,20 @@ header{
     @media #{variables.$media-mobile-sm} {
       position: fixed;
       z-index: 111;
-      top: 0;
+      top: -100%;
       width: 100%;
       left: 0;
       background: rgba(variables.$color-primary-gray, 0.8);
       backdrop-filter: blur(8px);
       display: flex;
       justify-content: space-between;
+      transition: 0.2s;
+    }
+
+    &.show{
+      @media #{variables.$media-mobile-sm} {
+        top: 0;
+      }
     }
 
     &_logo{

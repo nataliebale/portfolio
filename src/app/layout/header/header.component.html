@@ -3,7 +3,7 @@
     <app-menu (toggleChangeEmit)="onToggleBarChange()"></app-menu>
   </div>
 
-  <div class="menu-right">
+  <div class="menu-right" [class.show]="showHeader">
     <a [routerLink]="'home'" class="menu-right_logo">
       N
     </a>
