@@ -15,7 +15,6 @@ export class AppComponent {
   ngOnInit() {
     this.scroller.nativeElement.onscroll = () => {
       let top = this.scroller.nativeElement.scrollTop;
-      console.log(111111111111, top);
       if (top > 0) {  // We scrolled down
         this.showHeader = false;
       }
