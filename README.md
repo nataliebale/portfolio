@@ -1,27 +1,21 @@
-# PortfolioProject
+# Welcome to My Portfolio Website!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+Are you looking for a talented and experienced Angular developer to bring your web projects to life? Look no further! This is my portfolio website where you can see everything about my skills, experience and projects that i've built.
 
-## Development server
+## Download My Resume:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+For a more comprehensive view of my professional background, feel free to download my resume from the navigation. It provides an in-depth look at my educational qualifications, work experience, technical skills, and noteworthy achievements.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Demo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://nataliebale.github.io/portfolio/
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Authors
 
-## Further help
+- [@nataliebale](https://github.com/nataliebale)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
