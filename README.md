@@ -7,15 +7,16 @@ Are you looking for a talented and experienced Angular developer to bring your w
 For a more comprehensive view of my professional background, feel free to download my resume from the navigation. It provides an in-depth look at my educational qualifications, work experience, technical skills, and noteworthy achievements.
 
 
-
-
-
 ## Demo
 
-https://nataliebale.github.io/portfolio/
+- https://nataliebale.github.io/portfolio/
 
 
-## Authors
+## Authors 
 
 - [@nataliebale](https://github.com/nataliebale)
+  
 
+## Authors 
+
+- Designed and developed by me.
