@@ -17,6 +17,6 @@ For a more comprehensive view of my professional background, feel free to downlo
 - [@nataliebale](https://github.com/nataliebale)
   
 
-## Authors 
+## Copyrights 
 
 - Designed and developed by me.
