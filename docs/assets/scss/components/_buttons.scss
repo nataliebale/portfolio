@@ -1,7 +1,5 @@
 @use '../abstracts/variables' as variables;
 
-
-
 .primary-btn{
   display: inline-block;
   min-width: 150px;
@@ -11,6 +9,10 @@
   height: 45px;
   z-index: 0;
   border-radius: 4px;
+
+  @media #{variables.$media-mobile-sm} {
+    width: 100%;
+  }
 
   span{
     background: variables.$color-primary-gray;
