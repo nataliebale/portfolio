@@ -6,6 +6,7 @@ import { Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  // @ts-ignore
   @Input() showHeader: boolean;
   @Output() toggleChangeEmit: EventEmitter<boolean> = new EventEmitter<boolean>();
 
